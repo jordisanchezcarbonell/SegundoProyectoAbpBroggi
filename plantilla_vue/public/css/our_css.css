@@ -1,0 +1,246 @@
+
+/*TIPOGRAFIA FONTS */
+    /*titols*/
+@import url(https://fonts.googleapis.com/css?family=Bungee&display=swap);
+    /*text*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
+
+    /*classe per al titols*/
+.text_titol{
+    font-family: 'Bungee', cursive !important;
+}
+
+.text_titol_max{
+    font-family: 'Bungee', cursive !important;
+    font-size: 200px;
+}
+    /*per a tot la resta*/
+*{
+    font-family: 'Open Sans', sans-serif !important;
+}
+ /*Para que los titulos de modal tengan nuestro font-family*/
+h5{
+    font-family: 'Bungee', cursive !important;
+
+}
+/*template*/
+body{
+    /*si descomentem apareix el dgradat*/
+    background: linear-gradient(to left, #ffffff, #D9E8F5);
+}
+#template .navbar {
+    background-color: #304269;
+    /*font per als titols*/
+    font-family: 'Bungee', cursive !important;
+}
+
+/* classe aplicable a tots els botons principals */
+.boto-primari
+{
+    border-radius: 25px!important;
+    color: white !important;
+    background-color: #f26101 !important;
+    transition: 0.7s ease !important;
+}
+
+.boto-primari:hover
+{
+    color: white !important;
+    border-radius: 0px!important;
+    transform: scale(1.1);
+    background-color: #c04d00 !important;
+    transition: 0.7s ease;
+}
+
+.boto-primari:disabled
+{
+    color: white !important;
+    background-color: #ff8839 !important;
+    transform: scale(1);
+    border-radius: 25px!important;
+}
+
+/* classe aplicable a tots els botons secondaris */
+.boto-secondari
+{
+    border-radius: 2rem!important;
+    background-color: #91BED4 !important;
+    transition: 0.5s ease!important;
+}
+
+.boto-secondari:hover
+{
+    border-radius: 0rem!important;
+    transform: scale(1.2);
+    background-color: rgb(165, 224, 253) !important;
+    transition: 0.5s ease;
+}
+
+.boto-terciari
+{
+    border-radius: 25px!important;
+    color: white !important;
+    background-color: #304269 !important;
+    transition: 0.5s ease !important;
+
+}
+
+.boto-terciari:hover
+{
+    border-radius: 5px!important;
+    color: white !important;
+    background-color: #2366f5 !important;
+    transition: 0.7s ease;
+}
+
+.video-fluid {
+    width: 100%;
+    height: auto;
+  }
+/*
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    height: 50px;
+    background-color: #304269;
+    left: 0;
+}*/
+
+/*tema login*/
+.logincenter{
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*tema register*/
+.registercenter{
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #304269;
+}
+
+.containercard{
+    padding-top: 150px;
+}
+
+.containercard .card{
+    height: 100%;
+}
+
+@media(max-width:800px){
+    .containercard{
+        padding-top: 0;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+/*Margen del form*/
+
+.margenform{
+    margin-left: 25px;
+}
+
+.margeninput{
+    width: 60% !important
+    ; float: left;  margin-left: 25px;
+}
+
+.margeninput2{
+    width: 77% !important
+    ; float: left;  margin-left: 25px;
+}
+
+.btn-colordefondoinsert {
+    color: #fff !important;
+    background-color: #f26101 !important;
+    border-color: #f26101 !important;
+    width: auto;
+    height: auto;
+}
+
+.btn-colordefondoenviar {
+
+    width: auto;
+    height: auto;
+}
+
+.buttondatetime {
+    border-color: #f26101 !important;
+
+    margin-left: 10px;
+    margin-bottom: 17px;
+    background-color: #f26101 !important;
+
+}
+
+.videoclcik{
+    border-radius: 25px;
+
+    float: left;
+    margin-left: 5vh;
+    border: 5px solid #f26101 !important;
+
+}
+.esconder{
+    visibility: hidden;
+}
+
+.ver{
+    visibility: none;
+
+}
+.elemetos {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+ /*icona nfo modal*/
+.icona-info{
+    width: 37px;
+    height: 32px;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.margentitulo{
+
+    margin-bottom: 5vh;
+
+    float: left;
+    margin-left: 5vh;
+}
+
+.imagen{
+    border-radius: 25px;
+
+    float: left;
+    margin-left: 5vh;
+    border: 5px solid #304269 !important;
+
+}
